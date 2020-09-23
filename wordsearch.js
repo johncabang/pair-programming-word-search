@@ -18,11 +18,11 @@ const wordSearch = (letters, word) => {
   return false;
 };
 
-const transpose = function (matrix) {
+const transpose = function(matrix) {
   const results = [];
-  for (var i = 0; i < matrix.length; i++) {
+  for (let i = 0; i < matrix.length; i++) {
     const temp = [];
-    for (var j = 0; j < matrix[0].length; j++) {
+    for (let j = 0; j < matrix[0].length; j++) {
       // console.log("i is: ", i, "j is: ", j, "what we're pushing is: ", matrix[j][i]);
       temp.push(matrix[j][i]);
     }
